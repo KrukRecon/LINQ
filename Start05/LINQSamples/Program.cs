@@ -6,7 +6,7 @@ namespace LINQSamples
   {
     static void Main(string[] args)
     {
-      // Instantiate the Samples ViewModel
+      // Instantiate the ViewModel
       SamplesViewModel vm = new SamplesViewModel
       {
         // Use Query or Method Syntax?
@@ -14,7 +14,7 @@ namespace LINQSamples
       };
 
       // Call a sample method
-      vm.OrderByTwoFields();
+      vm.ForEach();
 
       // Display Product Collection
       foreach (var item in vm.Products) {
