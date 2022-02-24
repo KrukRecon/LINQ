@@ -14,10 +14,7 @@ namespace LINQSamples
       };
 
       // Call a sample method
-      vm.Maximum();
-
-      // Display Result Text
-      Console.WriteLine(vm.ResultText);
+      vm.DeferredExecution();
     }
   }
 }
